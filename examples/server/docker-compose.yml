@@ -1,0 +1,9 @@
+services:
+  openvpn:
+    image: xlrl/openvpn:latest
+    volumes:
+      - ./config:/etc/openvpn
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - 1194:1194/udp
