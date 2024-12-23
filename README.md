@@ -1,4 +1,4 @@
-# docker-openvpn
+# Docker OpenVPN
 
 This repository contains the configuration for a OpenVPN configuration based on Alpine Linux.
 
